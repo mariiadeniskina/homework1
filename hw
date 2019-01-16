@@ -1,0 +1,10 @@
+def summa(n):
+    s = 0
+    for x in range (n+1):
+        if x%3 == 0 or x%5 == 0:
+            s = s+x
+    return s
+summa(1000)
+234168
+summa(8)
+14
